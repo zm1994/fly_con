@@ -50,6 +50,7 @@ group :development do
   gem 'mongo', '~> 2.4'
   gem 'mongoid'
   gem 'faraday'
+  gem 'awesome_print'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

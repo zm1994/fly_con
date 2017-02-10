@@ -13,7 +13,7 @@ class Location
 
   # Converts an object of this instance into a database friendly value.
   def mongoize
-    [ latitude, longitude ]
+    { lat: latitude, lon: longitude }
   end
 
   class << self
